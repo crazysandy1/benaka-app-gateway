@@ -1,9 +1,8 @@
 {
-  "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/api/index.js"
+      "source": "/(.*)",
+      "destination": "http://benaka-app.ap-south-1.elasticbeanstalk.com/$1"
     }
   ]
 }
